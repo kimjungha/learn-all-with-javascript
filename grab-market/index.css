@@ -5,7 +5,6 @@
 
 #header {
   height: 64px;
-
   display: flex;
   justify-content: center;
   border-bottom: 1px solid gray;
@@ -19,11 +18,9 @@
 }
 #footer {
   height: 200px;
-  background-color: blue;
 }
 #banner {
   height: 300px;
-  background-color: yellow;
 }
 #header-area {
   width: 1024px;
@@ -37,7 +34,7 @@
 }
 #header-area > img {
   width: 128px;
-  height: 36px;
+  height: 45px;
 }
 
 #banner > img {
@@ -57,11 +54,12 @@
 .product-card {
   width: 180px;
   height: 300px;
-  background-color: gray;
+
   margin-right: 12px;
   margin-bottom: 10px;
   border: 1px solid rgb(230, 230, 230);
   border-radius: 12px;
+  overflow: hidden;
 }
 
 .product-img {
@@ -75,7 +73,7 @@
   padding: 8px;
 }
 /* span 태그는 <div>처럼 영역을 나누지만, 줄바꿈이 안되고 수평적이다.  */
-/* 그러기에 flex-direction를 column으로 변경해주었다.  */
+/* 그러기에 flex-direction를 column으로 변경해주었다. 수직적으로 만들어주기 위해서  */
 
 .product-name {
   font-size: 14px;
